@@ -1,0 +1,1 @@
+const carouselPanel = document.querySelector('#carousel');

@@ -1,0 +1,327 @@
+
+body{
+  background-color: rgb(248,242,238) !important;
+}
+
+/* Meniu  */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(248,242,238);
+    font-family: 'Bebas Neue';
+    font-size: 25px; 
+  }
+li {
+    float:left;
+  }
+  
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: rgb(214, 188, 188) !important;
+    color:#333;
+    text-decoration: none;
+  }
+/*Iconite */
+.icons{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+
+}
+.meniu{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*End Meniu*/
+
+h1,h2{
+  color:#333;
+  text-align: center;
+}
+.container{
+  margin-top: 20px;
+  width: 20px;
+ 
+}
+.card{
+  text-align: center;
+  align-content: center;
+  background-color: rgb(248,242,238) !important;
+}
+
+.container {
+	max-width: 720px;
+	margin: 24px auto 48px auto;
+}
+.gmap_canvas{
+  border-radius: 5px;
+}
+div .card{
+  border:none;
+}
+.footer-icons{
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  align-content: center;
+  margin-top: 30px;
+
+}
+div.col{
+  padding: 2px ;
+}
+
+div a{
+  color: #333;
+  text-decoration: none;
+  line-height: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+div a:hover{
+  color:#333;
+}
+.col{
+  flex:0 !important;
+
+}
+.instagram{
+  margin: 0px !important;
+  justify-content: center;
+}
+@media only screen and (min-width: 1800px) 
+{
+.meniu {
+   height: 60px;
+   }
+.meniu a{
+    font-size: 40px;
+ }
+.icons{
+   height: 50px;
+   width: 60px;
+   margin-right: 40px;
+ }
+
+.row{
+      max-width: 2570px !important;
+      justify-content: center;
+    }
+.post, .card-img{
+      width:840px !important;
+      margin-left: 10px;
+    }
+.articles{
+      margin:0px;
+      display: contents;
+     
+    }
+h1{
+      font-size: 60px !important;
+    }
+.card-body, h2{
+    font-size:40px !important;
+  }
+.instagram{
+    margin:0px;
+    display: contents;
+  }
+div.col{
+   margin-left: 30px;
+ }
+.instagram-media{
+   width: 500px !important;
+ }
+.container{
+   margin:0px !important;
+   display: contents;
+ }
+ footer p,footer a{
+ font-size: 30px;
+}
+footer .card{ 
+  padding: 0px;
+
+}
+
+.gmap_canvas{
+  height: 330px !important;
+  width: 800px !important;
+}
+}
+@media only screen and (max-width: 2630px)
+{
+  .row{
+    max-width: 2630px !important;
+  }
+.post, .card-img{
+    width:740px !important;
+  
+  }
+  .instagram{
+    align-items: center !important;
+  }
+
+}
+@media only screen and (max-width: 1830px)
+{
+  .row{
+    max-width: 1830px !important;
+  }
+.post, .card-img{
+    width:400px !important;
+  
+  }
+  .icons{
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+  }
+}
+@media only screen and (max-width: 1430px)
+{
+  .meniu {
+    height: 40px;
+    }
+    .icons{
+      height: 30px;
+      width: 30px;
+      margin-right: 40px;
+    }
+    .d-block{
+      height: 600px !important;
+     }
+    .place{
+      max-width: 1000px !important;
+    }
+    .row{
+      justify-content:center;
+    }
+    .articles{
+      max-width:fit-content;
+    }
+  h1{
+    font-size: 30px !important;
+     }
+
+    .post, .card-img{
+      width:260px !important;
+     
+    }
+    .gmap_canvas{
+      height: 300px !important;
+      width: 300px !important;
+    }
+    
+ }
+ @media only screen and (max-width: 1430px)
+ {
+   .articles{
+    flex-wrap: nowrap !important;
+  }
+ }
+ @media only screen and (max-width: 1000px){
+  .location{
+    width: 100% !important;
+  }
+  .down{
+    display: grid !important;
+  }
+
+ }
+
+@media only screen and (max-width: 650px) {
+  li a{
+    font-size: 20px;
+    padding:0px 10px;
+  }
+  .icons{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  
+  }
+  .d-block{
+    height: 400px !important;
+   }
+   .row{
+    --bs-gutter-x:0px !important;
+   }
+}
+@media only screen and (max-width: 320px) 
+{ li a,h1{
+  font-size: 15px !important;
+  padding:0px 10px;
+}
+.d-block{
+  height: 300px !important;
+ }
+ .instagram, h2{
+   display: none !important;
+ }
+
+.gmap_canvas{
+  height: 200px;
+  width: 200px !important;
+}
+.card-img{
+ width: 70% !important;
+}
+}
+/*About me*/
+
+.am{
+  width: 100% !important;
+  height: 250px !important;
+  margin-top:30px;
+  border-radius: 10px;
+}
+.column1 {
+  float: right;
+  width: 50% !important;
+  margin:10px;
+
+}
+
+/* Clear floats after the columns */
+.split{
+  display: flex ;
+
+}
+.split:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.description{
+  margin-top:40px;
+  text-align:left;
+  line-height: 30px;
+  margin-left:10px;
+
+}
+/*Responsive About me page*/
+@media only screen and (max-width: 770px) 
+{ .split{
+  display:grid !important;
+  justify-items:center!important;
+}
+.column1{
+  width: 100% !important;
+}
+.am, .description{
+  padding: 10px;
+  margin-top:0px;
+}
+}
